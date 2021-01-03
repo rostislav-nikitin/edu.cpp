@@ -1,0 +1,39 @@
+// Single-line comment
+/*
+ * Multiple line comment
+ */
+
+#include <iostream>
+
+int add(int, int);
+
+double add(double, double);
+
+using namespace std;
+
+int main()
+{
+	int result = add(3, 5);
+	cout << result << endl;
+
+	result = add(3.55, 5.12);
+	cout << result << endl;
+
+	return 0;
+}
+
+
+int add(int a, int b)
+{
+	int result = a + b;
+
+	return result;
+}
+
+
+double add(double a, double b)
+{
+	double result = a + b;
+
+	return result;
+}
